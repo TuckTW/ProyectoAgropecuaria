@@ -1,0 +1,301 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\delci\\source\\repos\\AgroCampoApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A6BE1F6D-339A-4D21-8F73-14BB07B5B85C}|AgroCampoApp\\AgroCampoApp.csproj|c:\\users\\delci\\source\\repos\\agrocampoapp\\agrocampoapp\\forms\\clientesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A6BE1F6D-339A-4D21-8F73-14BB07B5B85C}|AgroCampoApp\\AgroCampoApp.csproj|solutionrelative:agrocampoapp\\forms\\clientesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6BE1F6D-339A-4D21-8F73-14BB07B5B85C}|AgroCampoApp\\AgroCampoApp.csproj|c:\\users\\delci\\source\\repos\\agrocampoapp\\agrocampoapp\\forms\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6BE1F6D-339A-4D21-8F73-14BB07B5B85C}|AgroCampoApp\\AgroCampoApp.csproj|solutionrelative:agrocampoapp\\forms\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6BE1F6D-339A-4D21-8F73-14BB07B5B85C}|AgroCampoApp\\AgroCampoApp.csproj|c:\\users\\delci\\source\\repos\\agrocampoapp\\agrocampoapp\\forms\\proveedoresform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A6BE1F6D-339A-4D21-8F73-14BB07B5B85C}|AgroCampoApp\\AgroCampoApp.csproj|solutionrelative:agrocampoapp\\forms\\proveedoresform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6BE1F6D-339A-4D21-8F73-14BB07B5B85C}|AgroCampoApp\\AgroCampoApp.csproj|c:\\users\\delci\\source\\repos\\agrocampoapp\\agrocampoapp\\forms\\ventasform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A6BE1F6D-339A-4D21-8F73-14BB07B5B85C}|AgroCampoApp\\AgroCampoApp.csproj|solutionrelative:agrocampoapp\\forms\\ventasform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6BE1F6D-339A-4D21-8F73-14BB07B5B85C}|AgroCampoApp\\AgroCampoApp.csproj|c:\\users\\delci\\source\\repos\\agrocampoapp\\agrocampoapp\\forms\\productosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A6BE1F6D-339A-4D21-8F73-14BB07B5B85C}|AgroCampoApp\\AgroCampoApp.csproj|solutionrelative:agrocampoapp\\forms\\productosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6BE1F6D-339A-4D21-8F73-14BB07B5B85C}|AgroCampoApp\\AgroCampoApp.csproj|c:\\users\\delci\\source\\repos\\agrocampoapp\\agrocampoapp\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{A6BE1F6D-339A-4D21-8F73-14BB07B5B85C}|AgroCampoApp\\AgroCampoApp.csproj|solutionrelative:agrocampoapp\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6BE1F6D-339A-4D21-8F73-14BB07B5B85C}|AgroCampoApp\\AgroCampoApp.csproj|c:\\users\\delci\\source\\repos\\agrocampoapp\\agrocampoapp\\properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6BE1F6D-339A-4D21-8F73-14BB07B5B85C}|AgroCampoApp\\AgroCampoApp.csproj|solutionrelative:agrocampoapp\\properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6BE1F6D-339A-4D21-8F73-14BB07B5B85C}|AgroCampoApp\\AgroCampoApp.csproj|c:\\users\\delci\\source\\repos\\agrocampoapp\\agrocampoapp\\agrocampoapp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{A6BE1F6D-339A-4D21-8F73-14BB07B5B85C}|AgroCampoApp\\AgroCampoApp.csproj|solutionrelative:agrocampoapp\\agrocampoapp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6BE1F6D-339A-4D21-8F73-14BB07B5B85C}|AgroCampoApp\\AgroCampoApp.csproj|c:\\users\\delci\\source\\repos\\agrocampoapp\\agrocampoapp\\agrocampoapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A6BE1F6D-339A-4D21-8F73-14BB07B5B85C}|AgroCampoApp\\AgroCampoApp.csproj|solutionrelative:agrocampoapp\\agrocampoapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6BE1F6D-339A-4D21-8F73-14BB07B5B85C}|AgroCampoApp\\AgroCampoApp.csproj|c:\\users\\delci\\source\\repos\\agrocampoapp\\agrocampoapp\\forms\\clientesform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6BE1F6D-339A-4D21-8F73-14BB07B5B85C}|AgroCampoApp\\AgroCampoApp.csproj|solutionrelative:agrocampoapp\\forms\\clientesform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6BE1F6D-339A-4D21-8F73-14BB07B5B85C}|AgroCampoApp\\AgroCampoApp.csproj|c:\\users\\delci\\source\\repos\\agrocampoapp\\agrocampoapp\\forms\\productosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6BE1F6D-339A-4D21-8F73-14BB07B5B85C}|AgroCampoApp\\AgroCampoApp.csproj|solutionrelative:agrocampoapp\\forms\\productosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6BE1F6D-339A-4D21-8F73-14BB07B5B85C}|AgroCampoApp\\AgroCampoApp.csproj|c:\\users\\delci\\source\\repos\\agrocampoapp\\agrocampoapp\\forms\\clientesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6BE1F6D-339A-4D21-8F73-14BB07B5B85C}|AgroCampoApp\\AgroCampoApp.csproj|solutionrelative:agrocampoapp\\forms\\clientesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6BE1F6D-339A-4D21-8F73-14BB07B5B85C}|AgroCampoApp\\AgroCampoApp.csproj|c:\\users\\delci\\source\\repos\\agrocampoapp\\agrocampoapp\\forms\\proveedoresform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6BE1F6D-339A-4D21-8F73-14BB07B5B85C}|AgroCampoApp\\AgroCampoApp.csproj|solutionrelative:agrocampoapp\\forms\\proveedoresform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6BE1F6D-339A-4D21-8F73-14BB07B5B85C}|AgroCampoApp\\AgroCampoApp.csproj|C:\\Users\\delci\\source\\repos\\AgroCampoApp\\agrocampoapp\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A6BE1F6D-339A-4D21-8F73-14BB07B5B85C}|AgroCampoApp\\AgroCampoApp.csproj|solutionrelative:agrocampoapp\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6BE1F6D-339A-4D21-8F73-14BB07B5B85C}|AgroCampoApp\\AgroCampoApp.csproj|c:\\users\\delci\\source\\repos\\agrocampoapp\\agrocampoapp\\forms\\ventasform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6BE1F6D-339A-4D21-8F73-14BB07B5B85C}|AgroCampoApp\\AgroCampoApp.csproj|solutionrelative:agrocampoapp\\forms\\ventasform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6BE1F6D-339A-4D21-8F73-14BB07B5B85C}|AgroCampoApp\\AgroCampoApp.csproj|c:\\users\\delci\\source\\repos\\agrocampoapp\\agrocampoapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6BE1F6D-339A-4D21-8F73-14BB07B5B85C}|AgroCampoApp\\AgroCampoApp.csproj|solutionrelative:agrocampoapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6BE1F6D-339A-4D21-8F73-14BB07B5B85C}|AgroCampoApp\\AgroCampoApp.csproj|c:\\users\\delci\\source\\repos\\agrocampoapp\\agrocampoapp\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6BE1F6D-339A-4D21-8F73-14BB07B5B85C}|AgroCampoApp\\AgroCampoApp.csproj|solutionrelative:agrocampoapp\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Resources.resx",
+              "DocumentMoniker": "C:\\Users\\delci\\source\\repos\\AgroCampoApp\\AgroCampoApp\\Properties\\Resources.resx",
+              "RelativeDocumentMoniker": "AgroCampoApp\\Properties\\Resources.resx",
+              "ToolTip": "C:\\Users\\delci\\source\\repos\\AgroCampoApp\\AgroCampoApp\\Properties\\Resources.resx",
+              "RelativeToolTip": "AgroCampoApp\\Properties\\Resources.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-12-13T20:34:55.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProveedoresForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\delci\\source\\repos\\AgroCampoApp\\AgroCampoApp\\Forms\\ProveedoresForm.cs",
+              "RelativeDocumentMoniker": "AgroCampoApp\\Forms\\ProveedoresForm.cs",
+              "ToolTip": "C:\\Users\\delci\\source\\repos\\AgroCampoApp\\AgroCampoApp\\Forms\\ProveedoresForm.cs [Design]",
+              "RelativeToolTip": "AgroCampoApp\\Forms\\ProveedoresForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T16:50:14.457Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\delci\\source\\repos\\AgroCampoApp\\AgroCampoApp\\Forms\\MainForm.Designer.cs",
+              "RelativeDocumentMoniker": "AgroCampoApp\\Forms\\MainForm.Designer.cs",
+              "ToolTip": "C:\\Users\\delci\\source\\repos\\AgroCampoApp\\AgroCampoApp\\Forms\\MainForm.Designer.cs",
+              "RelativeToolTip": "AgroCampoApp\\Forms\\MainForm.Designer.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAYwFkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T05:08:21.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClientesForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\delci\\source\\repos\\AgroCampoApp\\AgroCampoApp\\Forms\\ClientesForm.cs",
+              "RelativeDocumentMoniker": "AgroCampoApp\\Forms\\ClientesForm.cs",
+              "ToolTip": "C:\\Users\\delci\\source\\repos\\AgroCampoApp\\AgroCampoApp\\Forms\\ClientesForm.cs [Design]",
+              "RelativeToolTip": "AgroCampoApp\\Forms\\ClientesForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T15:52:04.36Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductosForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\delci\\source\\repos\\AgroCampoApp\\AgroCampoApp\\Forms\\ProductosForm.cs",
+              "RelativeDocumentMoniker": "AgroCampoApp\\Forms\\ProductosForm.cs",
+              "ToolTip": "C:\\Users\\delci\\source\\repos\\AgroCampoApp\\AgroCampoApp\\Forms\\ProductosForm.cs [Design]",
+              "RelativeToolTip": "AgroCampoApp\\Forms\\ProductosForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T14:48:47.038Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VentasForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\delci\\source\\repos\\AgroCampoApp\\AgroCampoApp\\Forms\\VentasForm.cs",
+              "RelativeDocumentMoniker": "AgroCampoApp\\Forms\\VentasForm.cs",
+              "ToolTip": "C:\\Users\\delci\\source\\repos\\AgroCampoApp\\AgroCampoApp\\Forms\\VentasForm.cs [Design]",
+              "RelativeToolTip": "AgroCampoApp\\Forms\\VentasForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T17:33:38.091Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "VentasForm.cs",
+              "DocumentMoniker": "C:\\Users\\delci\\source\\repos\\AgroCampoApp\\AgroCampoApp\\Forms\\VentasForm.cs",
+              "RelativeDocumentMoniker": "AgroCampoApp\\Forms\\VentasForm.cs",
+              "ToolTip": "C:\\Users\\delci\\source\\repos\\AgroCampoApp\\AgroCampoApp\\Forms\\VentasForm.cs",
+              "RelativeToolTip": "AgroCampoApp\\Forms\\VentasForm.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAlwBoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T18:29:09.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AgroCampoApp",
+              "DocumentMoniker": "C:\\Users\\delci\\source\\repos\\AgroCampoApp\\AgroCampoApp\\AgroCampoApp.csproj",
+              "RelativeDocumentMoniker": "AgroCampoApp\\AgroCampoApp.csproj",
+              "ToolTip": "C:\\Users\\delci\\source\\repos\\AgroCampoApp\\AgroCampoApp\\AgroCampoApp.csproj",
+              "RelativeToolTip": "AgroCampoApp\\AgroCampoApp.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-13T20:34:24.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Resources.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\delci\\source\\repos\\AgroCampoApp\\AgroCampoApp\\Properties\\Resources.Designer.cs",
+              "RelativeDocumentMoniker": "AgroCampoApp\\Properties\\Resources.Designer.cs",
+              "ToolTip": "C:\\Users\\delci\\source\\repos\\AgroCampoApp\\AgroCampoApp\\Properties\\Resources.Designer.cs",
+              "RelativeToolTip": "AgroCampoApp\\Properties\\Resources.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T20:35:29.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProveedoresForm.cs",
+              "DocumentMoniker": "C:\\Users\\delci\\source\\repos\\AgroCampoApp\\AgroCampoApp\\Forms\\ProveedoresForm.cs",
+              "RelativeDocumentMoniker": "AgroCampoApp\\Forms\\ProveedoresForm.cs",
+              "ToolTip": "C:\\Users\\delci\\source\\repos\\AgroCampoApp\\AgroCampoApp\\Forms\\ProveedoresForm.cs",
+              "RelativeToolTip": "AgroCampoApp\\Forms\\ProveedoresForm.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAIA2wHMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T20:20:21.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ClientesForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\delci\\source\\repos\\AgroCampoApp\\AgroCampoApp\\Forms\\ClientesForm.Designer.cs",
+              "RelativeDocumentMoniker": "AgroCampoApp\\Forms\\ClientesForm.Designer.cs",
+              "ToolTip": "C:\\Users\\delci\\source\\repos\\AgroCampoApp\\AgroCampoApp\\Forms\\ClientesForm.Designer.cs",
+              "RelativeToolTip": "AgroCampoApp\\Forms\\ClientesForm.Designer.cs",
+              "ViewState": "AgIAAC8BAAAAAAAAAAAewEEBAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T16:04:43.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AgroCampoApp.csproj",
+              "DocumentMoniker": "C:\\Users\\delci\\source\\repos\\AgroCampoApp\\AgroCampoApp\\AgroCampoApp.csproj",
+              "RelativeDocumentMoniker": "AgroCampoApp\\AgroCampoApp.csproj",
+              "ToolTip": "C:\\Users\\delci\\source\\repos\\AgroCampoApp\\AgroCampoApp\\AgroCampoApp.csproj",
+              "RelativeToolTip": "AgroCampoApp\\AgroCampoApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-13T05:07:41.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductosForm.cs",
+              "DocumentMoniker": "C:\\Users\\delci\\source\\repos\\AgroCampoApp\\AgroCampoApp\\Forms\\ProductosForm.cs",
+              "RelativeDocumentMoniker": "AgroCampoApp\\Forms\\ProductosForm.cs",
+              "ToolTip": "C:\\Users\\delci\\source\\repos\\AgroCampoApp\\AgroCampoApp\\Forms\\ProductosForm.cs",
+              "RelativeToolTip": "AgroCampoApp\\Forms\\ProductosForm.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAD4v3kAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T20:19:26.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ClientesForm.cs",
+              "DocumentMoniker": "C:\\Users\\delci\\source\\repos\\AgroCampoApp\\AgroCampoApp\\Forms\\ClientesForm.cs",
+              "RelativeDocumentMoniker": "AgroCampoApp\\Forms\\ClientesForm.cs",
+              "ToolTip": "C:\\Users\\delci\\source\\repos\\AgroCampoApp\\AgroCampoApp\\Forms\\ClientesForm.cs",
+              "RelativeToolTip": "AgroCampoApp\\Forms\\ClientesForm.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAewH8AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T20:20:04.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\delci\\source\\repos\\AgroCampoApp\\AgroCampoApp\\Forms\\MainForm.cs",
+              "RelativeDocumentMoniker": "AgroCampoApp\\Forms\\MainForm.cs",
+              "ToolTip": "C:\\Users\\delci\\source\\repos\\AgroCampoApp\\AgroCampoApp\\Forms\\MainForm.cs [Design]",
+              "RelativeToolTip": "AgroCampoApp\\Forms\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T05:08:04.27Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\delci\\source\\repos\\AgroCampoApp\\AgroCampoApp\\Program.cs",
+              "RelativeDocumentMoniker": "AgroCampoApp\\Program.cs",
+              "ToolTip": "C:\\Users\\delci\\source\\repos\\AgroCampoApp\\AgroCampoApp\\Program.cs",
+              "RelativeToolTip": "AgroCampoApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T05:24:14.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\delci\\source\\repos\\AgroCampoApp\\AgroCampoApp\\Forms\\MainForm.cs",
+              "RelativeDocumentMoniker": "AgroCampoApp\\Forms\\MainForm.cs",
+              "ToolTip": "C:\\Users\\delci\\source\\repos\\AgroCampoApp\\AgroCampoApp\\Forms\\MainForm.cs",
+              "RelativeToolTip": "AgroCampoApp\\Forms\\MainForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T05:09:46.398Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
