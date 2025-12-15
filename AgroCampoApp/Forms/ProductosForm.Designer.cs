@@ -1,4 +1,8 @@
-﻿namespace AgroCampoApp.Forms
+﻿using System.Data; 
+using Microsoft.Data.SqlClient;
+using System.Windows.Forms;
+
+namespace AgroCampoApp.Forms
 {
     partial class ProductosForm
     {
@@ -40,7 +44,7 @@
             btnGuardar = new Button();
             btnNuevo = new Button();
             checkBox1 = new CheckBox();
-            nudStock = new NumericUpDown();
+            txtStock = new TextBox();
             nudPrecio = new NumericUpDown();
             txtCategorias = new TextBox();
             txtNombre = new TextBox();
@@ -51,7 +55,6 @@
             btnMenuPrincipal = new Button();
             ((System.ComponentModel.ISupportInitialize)dgvProductos).BeginInit();
             gbDatos.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)nudStock).BeginInit();
             ((System.ComponentModel.ISupportInitialize)nudPrecio).BeginInit();
             SuspendLayout();
             // 
@@ -67,30 +70,22 @@
             lblTitulo.Text = "Gestion De Productos";
             lblTitulo.Click += lblTitulo_Click;
             // 
-            // txtBuscar
-            // 
-            txtBuscar.AutoSize = true;
-            txtBuscar.Location = new Point(410, 127);
-            txtBuscar.Name = "txtBuscar";
-            txtBuscar.Size = new Size(0, 20);
-            txtBuscar.TabIndex = 1;
-            // 
             // textBuscar
             // 
             textBuscar.Location = new Point(12, 60);
             textBuscar.Name = "textBuscar";
             textBuscar.Size = new Size(607, 27);
-            textBuscar.TabIndex = 2;
-            textBuscar.Text = "Buscar :";
-            textBuscar.TextChanged += textBuscar_TextChanged;
+            textBuscar.TabIndex = 2; 
+            textBuscar.Text = "";
+            txtBuscar.TextChanged += textBuscar_TextChanged;
             // 
             // btnBuscar
             // 
             btnBuscar.Location = new Point(625, 60);
             btnBuscar.Name = "btnBuscar";
-            btnBuscar.Size = new Size(85, 26);
+            btnBuscar.Size = new Size(85, 29);
             btnBuscar.TabIndex = 3;
-            btnBuscar.Text = "buscar";
+            btnBuscar.Text = "Buscar";
             btnBuscar.UseVisualStyleBackColor = true;
             btnBuscar.Click += btnBuscar_Click;
             // 
@@ -98,7 +93,7 @@
             // 
             btnLimpiar.Location = new Point(775, 59);
             btnLimpiar.Name = "btnLimpiar";
-            btnLimpiar.Size = new Size(85, 27);
+            btnLimpiar.Size = new Size(85, 29);
             btnLimpiar.TabIndex = 4;
             btnLimpiar.Text = "Limpiar";
             btnLimpiar.UseVisualStyleBackColor = true;
@@ -116,6 +111,7 @@
             dgvProductos.Size = new Size(607, 352);
             dgvProductos.TabIndex = 5;
             dgvProductos.CellContentClick += dgvProductos_CellContentClick_1;
+            this.dgvProductos.SelectionChanged += new System.EventHandler(this.dgvProductos_SelectionChanged);
             // 
             // gbDatos
             // 
@@ -125,7 +121,7 @@
             gbDatos.Controls.Add(btnGuardar);
             gbDatos.Controls.Add(btnNuevo);
             gbDatos.Controls.Add(checkBox1);
-            gbDatos.Controls.Add(nudStock);
+            gbDatos.Controls.Add(txtStock);
             gbDatos.Controls.Add(nudPrecio);
             gbDatos.Controls.Add(txtCategorias);
             gbDatos.Controls.Add(txtNombre);
@@ -194,11 +190,11 @@
             // 
             // nudStock
             // 
-            nudStock.Location = new Point(62, 161);
-            nudStock.Name = "nudStock";
-            nudStock.Size = new Size(150, 27);
-            nudStock.TabIndex = 7;
-            nudStock.ValueChanged += nudStock_ValueChanged;
+            txtStock.Location = new Point(62, 161);
+            txtStock.Name = "nudStock";
+            txtStock.Size = new Size(150, 27);
+            txtStock.TabIndex = 7;
+            txtStock.TextChanged += txtStock_TextChanged;
             // 
             // nudPrecio
             // 
@@ -222,6 +218,8 @@
             txtNombre.Name = "txtNombre";
             txtNombre.Size = new Size(125, 27);
             txtNombre.TabIndex = 4;
+            txtNombre.Multiline = true;
+            txtNombre.ScrollBars = ScrollBars.Vertical;
             txtNombre.TextChanged += txtNombre_TextChanged;
             // 
             // lblStock
@@ -231,7 +229,7 @@
             lblStock.Name = "lblStock";
             lblStock.Size = new Size(45, 20);
             lblStock.TabIndex = 3;
-            lblStock.Text = "Stock";
+            lblStock.Text = "Unidad";
             lblStock.Click += lblStock_Click;
             // 
             // lblPrecio
@@ -295,7 +293,6 @@
             ((System.ComponentModel.ISupportInitialize)dgvProductos).EndInit();
             gbDatos.ResumeLayout(false);
             gbDatos.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)nudStock).EndInit();
             ((System.ComponentModel.ISupportInitialize)nudPrecio).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -317,7 +314,7 @@
         private TextBox txtNombre;
         private Label lblStock;
         private Label lblPrecio;
-        private NumericUpDown nudStock;
+        private TextBox txtStock;
         private CheckBox checkBox1;
         private Button btnEliminar;
         private Button btnEditar;

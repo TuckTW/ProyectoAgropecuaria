@@ -1,4 +1,8 @@
-﻿namespace AgroCampoApp.Forms
+﻿using System.Data;
+using Microsoft.Data.SqlClient;
+using System.Windows.Forms;
+
+namespace AgroCampoApp.Forms
 {
     partial class ProveedoresForm
     {
@@ -29,14 +33,14 @@
         private void InitializeComponent()
         {
             lblTitulo = new Label();
-            txtbuscar = new TextBox();
+            txtBuscar = new TextBox();
             dgvProveedores = new DataGridView();
             btnBuscar = new Button();
             btnLimpiar = new Button();
             gbDatos = new GroupBox();
             txtDireccion = new TextBox();
             txtTelefono = new TextBox();
-            txtCedula = new TextBox();
+            txtContacto = new TextBox();
             txtNombre = new TextBox();
             btnEliminar = new Button();
             btnGuardar = new Button();
@@ -66,12 +70,12 @@
             // 
             // txtbuscar
             // 
-            txtbuscar.Location = new Point(12, 88);
-            txtbuscar.Name = "txtbuscar";
-            txtbuscar.Size = new Size(607, 27);
-            txtbuscar.TabIndex = 3;
-            txtbuscar.Text = "Buscar:";
-            txtbuscar.TextChanged += txtbuscar_TextChanged;
+            txtBuscar.Location = new Point(12, 88);
+            txtBuscar.Name = "txtbuscar";
+            txtBuscar.Size = new Size(607, 27);
+            txtBuscar.TabIndex = 3;
+            txtBuscar.Text = "";
+            txtBuscar.TextChanged += txtbuscar_TextChanged;
             // 
             // dgvProveedores
             // 
@@ -87,6 +91,7 @@
             dgvProveedores.Size = new Size(607, 361);
             dgvProveedores.TabIndex = 6;
             dgvProveedores.CellContentClick += dgvProveedores_CellContentClick;
+            this.dgvProveedores.SelectionChanged += new System.EventHandler(this.dgvProveedores_SelectionChanged);
             // 
             // btnBuscar
             // 
@@ -113,7 +118,7 @@
             gbDatos.BackColor = SystemColors.ButtonFace;
             gbDatos.Controls.Add(txtDireccion);
             gbDatos.Controls.Add(txtTelefono);
-            gbDatos.Controls.Add(txtCedula);
+            gbDatos.Controls.Add(txtContacto);
             gbDatos.Controls.Add(txtNombre);
             gbDatos.Controls.Add(btnEliminar);
             gbDatos.Controls.Add(btnGuardar);
@@ -151,11 +156,11 @@
             // 
             // txtCedula
             // 
-            txtCedula.Location = new Point(86, 66);
-            txtCedula.Name = "txtCedula";
-            txtCedula.Size = new Size(141, 27);
-            txtCedula.TabIndex = 16;
-            txtCedula.TextChanged += txtCedula_TextChanged;
+            txtContacto.Location = new Point(86, 66);
+            txtContacto.Name = "txtContacto";
+            txtContacto.Size = new Size(141, 27);
+            txtContacto.TabIndex = 16;
+            txtContacto.TextChanged += txtCedula_TextChanged;
             // 
             // txtNombre
             // 
@@ -278,7 +283,7 @@
             Controls.Add(btnLimpiar);
             Controls.Add(btnBuscar);
             Controls.Add(dgvProveedores);
-            Controls.Add(txtbuscar);
+            Controls.Add(txtBuscar);
             Controls.Add(lblTitulo);
             Name = "ProveedoresForm";
             StartPosition = FormStartPosition.CenterScreen;
@@ -293,14 +298,14 @@
         #endregion
 
         private Label lblTitulo;
-        private TextBox txtbuscar;
+        private TextBox txtBuscar;
         private DataGridView dgvProveedores;
         private Button btnBuscar;
         private Button btnLimpiar;
         private GroupBox gbDatos;
         private TextBox txtDireccion;
         private TextBox txtTelefono;
-        private TextBox txtCedula;
+        private TextBox txtContacto;
         private TextBox txtNombre;
         private Button btnEliminar;
         private Button btnGuardar;

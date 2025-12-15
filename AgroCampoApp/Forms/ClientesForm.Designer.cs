@@ -1,7 +1,12 @@
-﻿namespace AgroCampoApp.Forms
+﻿using System.Data;
+using Microsoft.Data.SqlClient;
+using System.Windows.Forms;
+
+namespace AgroCampoApp.Forms
 {
     partial class ClientesForm
     {
+        
         /// <summary>
         /// Required designer variable.
         /// </summary>
@@ -37,7 +42,6 @@
             cmbTipo = new ComboBox();
             txtDireccion = new TextBox();
             txtTelefono = new TextBox();
-            txtCedula = new TextBox();
             txtNombre = new TextBox();
             btnEliminar = new Button();
             btnGuardar = new Button();
@@ -47,7 +51,6 @@
             lblTipo = new Label();
             lblDireccion = new Label();
             lblTelefono = new Label();
-            lblCedula = new Label();
             lblNombre = new Label();
             btnMenuPrincipal = new Button();
             ((System.ComponentModel.ISupportInitialize)dgvClientes).BeginInit();
@@ -73,7 +76,7 @@
             txtbuscar.Name = "txtbuscar";
             txtbuscar.Size = new Size(607, 27);
             txtbuscar.TabIndex = 2;
-            txtbuscar.Text = "Buscar:";
+            txtbuscar.Text = "";
             txtbuscar.TextChanged += txtbuscar_TextChanged;
             // 
             // btnBuscar
@@ -117,7 +120,6 @@
             gbDatos.Controls.Add(cmbTipo);
             gbDatos.Controls.Add(txtDireccion);
             gbDatos.Controls.Add(txtTelefono);
-            gbDatos.Controls.Add(txtCedula);
             gbDatos.Controls.Add(txtNombre);
             gbDatos.Controls.Add(btnEliminar);
             gbDatos.Controls.Add(btnGuardar);
@@ -141,7 +143,7 @@
             // 
             cmbTipo.DropDownStyle = ComboBoxStyle.DropDownList;
             cmbTipo.FormattingEnabled = true;
-            cmbTipo.Items.AddRange(new object[] { "Normal ", "Frecuente ", "Mayorista" });
+            cmbTipo.Items.AddRange(new object[] { "minorista", "mayorista", "distribuidor", "proveedor" });
             cmbTipo.Location = new Point(86, 184);
             cmbTipo.Name = "cmbTipo";
             cmbTipo.Size = new Size(141, 28);
@@ -150,28 +152,23 @@
             // 
             // txtDireccion
             // 
-            txtDireccion.Location = new Point(86, 142);
+            txtDireccion.Location = new Point(86, 102);
             txtDireccion.Multiline = true;
             txtDireccion.Name = "txtDireccion";
-            txtDireccion.Size = new Size(141, 34);
+            txtDireccion.Size = new Size(141, 64);
             txtDireccion.TabIndex = 18;
+            txtDireccion.Multiline = true;
+            txtDireccion.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             txtDireccion.TextChanged += txtDireccion_TextChanged;
             // 
             // txtTelefono
             // 
-            txtTelefono.Location = new Point(86, 104);
+            txtTelefono.Location = new Point(86, 64);
             txtTelefono.Name = "txtTelefono";
             txtTelefono.Size = new Size(141, 27);
             txtTelefono.TabIndex = 17;
             txtTelefono.TextChanged += txtTelefono_TextChanged;
-            // 
-            // txtCedula
-            // 
-            txtCedula.Location = new Point(86, 66);
-            txtCedula.Name = "txtCedula";
-            txtCedula.Size = new Size(141, 27);
-            txtCedula.TabIndex = 16;
-            txtCedula.TextChanged += txtCedula_TextChanged;
+
             // 
             // txtNombre
             // 
@@ -179,6 +176,8 @@
             txtNombre.Name = "txtNombre";
             txtNombre.Size = new Size(141, 27);
             txtNombre.TabIndex = 15;
+            txtNombre.Multiline = true;
+            txtNombre.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             txtNombre.TextChanged += txtNombre_TextChanged;
             // 
             // btnEliminar
@@ -245,7 +244,7 @@
             // lblDireccion
             // 
             lblDireccion.AutoSize = true;
-            lblDireccion.Location = new Point(6, 145);
+            lblDireccion.Location = new Point(6, 105);
             lblDireccion.Name = "lblDireccion";
             lblDireccion.Size = new Size(72, 20);
             lblDireccion.TabIndex = 3;
@@ -255,22 +254,13 @@
             // lblTelefono
             // 
             lblTelefono.AutoSize = true;
-            lblTelefono.Location = new Point(6, 107);
+            lblTelefono.Location = new Point(6, 67);
             lblTelefono.Name = "lblTelefono";
             lblTelefono.Size = new Size(67, 20);
             lblTelefono.TabIndex = 2;
             lblTelefono.Text = "Telefono";
             lblTelefono.Click += lblTelefono_Click;
-            // 
-            // lblCedula
-            // 
-            lblCedula.AutoSize = true;
-            lblCedula.Location = new Point(6, 69);
-            lblCedula.Name = "lblCedula";
-            lblCedula.Size = new Size(55, 20);
-            lblCedula.TabIndex = 1;
-            lblCedula.Text = "Cedula";
-            lblCedula.Click += lblCedula_Click;
+
             // 
             // lblNombre
             // 
@@ -335,7 +325,6 @@
         private Button btnEditar;
         private Button btnGuardar;
         private Button btnEliminar;
-        private TextBox txtCedula;
         private TextBox txtNombre;
         private ComboBox cmbTipo;
         private TextBox txtDireccion;

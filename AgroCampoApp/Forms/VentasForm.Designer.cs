@@ -1,4 +1,8 @@
-﻿namespace AgroCampoApp.Forms
+﻿using System.Data;
+using Microsoft.Data.SqlClient;
+using System.Windows.Forms;
+
+namespace AgroCampoApp.Forms
 {
     partial class VentasForm
     {
@@ -34,8 +38,8 @@
             cmbCliente = new ComboBox();
             lblFecha = new Label();
             dtpFecha = new DateTimePicker();
-            lblNventas = new Label();
-            txtNventas = new TextBox();
+            lblEstadoVentas = new Label();
+            cmbEstadoVentas = new ComboBox();
             dgvVentas = new DataGridView();
             gbAgregarItems = new GroupBox();
             txtTotal = new TextBox();
@@ -48,6 +52,7 @@
             lblCantidad = new Label();
             comboBox1 = new ComboBox();
             lblProducto = new Label();
+            btnBuscarVenta = new Button();
             ((System.ComponentModel.ISupportInitialize)dgvVentas).BeginInit();
             gbAgregarItems.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)nudPrecio).BeginInit();
@@ -113,20 +118,32 @@
             // 
             // lblNventas
             // 
-            lblNventas.AutoSize = true;
-            lblNventas.Location = new Point(555, 96);
-            lblNventas.Name = "lblNventas";
-            lblNventas.Size = new Size(76, 20);
-            lblNventas.TabIndex = 7;
-            lblNventas.Text = "N.º Ventas";
+            lblEstadoVentas.AutoSize = true;
+            lblEstadoVentas.Location = new Point(555, 96);
+            lblEstadoVentas.Name = "lblEstadoVentas";
+            lblEstadoVentas.Size = new Size(76, 20);
+            lblEstadoVentas.TabIndex = 7;
+            lblEstadoVentas.Text = "Estado de Ventas";
             // 
             // txtNventas
             // 
-            txtNventas.Location = new Point(632, 93);
-            txtNventas.Name = "txtNventas";
-            txtNventas.ReadOnly = true;
-            txtNventas.Size = new Size(125, 27);
-            txtNventas.TabIndex = 8;
+            cmbEstadoVentas.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbEstadoVentas.FormattingEnabled = true;
+            cmbEstadoVentas.Location = new Point(667, 93);
+            cmbEstadoVentas.Name = "txtEstadoVentas";
+            cmbEstadoVentas.Size = new Size(125, 27);
+            cmbEstadoVentas.TabIndex = 8;
+            // 
+            // btnBuscarVenta
+            // 
+            btnBuscarVenta.BackColor = SystemColors.ControlLight;
+            btnBuscarVenta.Location = new Point(810, 91);
+            btnBuscarVenta.Name = "btnBuscarVenta";
+            btnBuscarVenta.Size = new Size(94, 29);
+            btnBuscarVenta.TabIndex = 8;
+            btnBuscarVenta.Text = "Buscar";
+            btnBuscarVenta.UseVisualStyleBackColor = false;
+            btnBuscarVenta.Click += btnBuscarVenta_Click;
             // 
             // dgvVentas
             // 
@@ -137,16 +154,17 @@
             dgvVentas.MultiSelect = false;
             dgvVentas.Name = "dgvVentas";
             dgvVentas.ReadOnly = true;
+            dgvVentas.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dgvVentas.RowHeadersWidth = 51;
             dgvVentas.Size = new Size(732, 399);
             dgvVentas.TabIndex = 9;
-            dgvVentas.CellContentClick += dataGridView1_CellContentClick;
             // 
             // gbAgregarItems
             // 
             gbAgregarItems.BackColor = SystemColors.ButtonFace;
             gbAgregarItems.Controls.Add(txtTotal);
             gbAgregarItems.Controls.Add(lblTotal);
+            gbAgregarItems.Controls.Add(btnBuscarVenta);
             gbAgregarItems.Controls.Add(btnQuitar);
             gbAgregarItems.Controls.Add(btnAgregar);
             gbAgregarItems.Controls.Add(nudPrecio);
@@ -187,6 +205,7 @@
             btnQuitar.TabIndex = 7;
             btnQuitar.Text = "Quitar";
             btnQuitar.UseVisualStyleBackColor = true;
+            btnQuitar.Click += btnQuitar_Click;
             // 
             // btnAgregar
             // 
@@ -196,6 +215,7 @@
             btnAgregar.TabIndex = 6;
             btnAgregar.Text = "Agregar";
             btnAgregar.UseVisualStyleBackColor = true;
+            btnAgregar.Click += btnAgregar_Click; 
             // 
             // nudPrecio
             // 
@@ -237,11 +257,14 @@
             // 
             // comboBox1
             // 
+            comboBox1.DisplayMember = "nombre_producto";
+            comboBox1.ValueMember = "id_producto";
             comboBox1.FormattingEnabled = true;
             comboBox1.Location = new Point(76, 62);
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(120, 28);
             comboBox1.TabIndex = 1;
+            comboBox1.SelectedValueChanged += comboBox1_SelectedValueChanged;
             // 
             // lblProducto
             // 
@@ -260,8 +283,9 @@
             ClientSize = new Size(982, 553);
             Controls.Add(gbAgregarItems);
             Controls.Add(dgvVentas);
-            Controls.Add(txtNventas);
-            Controls.Add(lblNventas);
+            Controls.Add(cmbEstadoVentas);
+            Controls.Add(lblEstadoVentas);
+            Controls.Add(btnBuscarVenta);
             Controls.Add(dtpFecha);
             Controls.Add(lblFecha);
             Controls.Add(cmbCliente);
@@ -288,8 +312,9 @@
         private ComboBox cmbCliente;
         private Label lblFecha;
         private DateTimePicker dtpFecha;
-        private Label lblNventas;
-        private TextBox txtNventas;
+        private Label lblEstadoVentas;
+        private ComboBox cmbEstadoVentas;
+        private Button btnBuscarVenta;
         private DataGridView dgvVentas;
         private GroupBox gbAgregarItems;
         private ComboBox comboBox1;
